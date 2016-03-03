@@ -6,13 +6,9 @@ resolver: lts-5.3
 # Local packages, usually specified by relative directory name
 packages:
 - '.'
-- location:
-    git: git@github.com:paramanders/elm-compiler.git
-    commit: 1cce8a3e1eb1df25f026872a4cbac21b1858e594
 
 # Packages to be pulled from upstream that are not in the resolver (e.g., acme-missiles-0.3)
-extra-deps:
-  - elm-compiler-0.16.1
+extra-deps: []
 
 # Override default flag values for local packages and extra-deps
 flags: {}
